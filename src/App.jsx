@@ -5,12 +5,14 @@ import { EditNote } from "./pages/EditNote";
 
 export const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Notes />} />
-        <Route path="/create-note" element={<CreateNote />} />
-        <Route path="/edit-note/:id" element={<EditNote />} />
-      </Routes>
-    </BrowserRouter>
+    <main id="app">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Notes />} />
+          <Route path="/create-note" element={<CreateNote />} />
+          <Route path="/edit-note/:id" element={<EditNote />} />
+        </Routes>
+      </BrowserRouter>
+    </main>
   );
 };
