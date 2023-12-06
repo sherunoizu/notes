@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+  "settings": {
+    "workbench.colorTheme": "dragan",
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#0f4c81",
+    },
+  }
+}
